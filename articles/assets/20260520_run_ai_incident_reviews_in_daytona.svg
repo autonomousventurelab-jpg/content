@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Daytona incident review workflow with Omni Engineer and Claude Engineer</title>
+  <desc id="desc">A workflow diagram showing one incident brief moving into separate Omni Engineer and Claude Engineer Daytona workspaces, then converging into one reviewed patch.</desc>
+  <rect width="1200" height="640" fill="#0f172a"/>
+  <rect x="64" y="74" width="1072" height="492" rx="28" fill="#111827" stroke="#334155" stroke-width="3"/>
+  <text x="102" y="135" fill="#f8fafc" font-family="Arial, sans-serif" font-size="42" font-weight="700">AI incident review in Daytona</text>
+  <text x="104" y="178" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="22">Run the same bug brief through two isolated workspaces, compare the evidence, then ship one reviewed fix.</text>
+  <rect x="104" y="250" width="220" height="116" rx="18" fill="#1e293b" stroke="#facc15" stroke-width="3"/>
+  <text x="132" y="300" fill="#facc15" font-family="Arial, sans-serif" font-size="23" font-weight="700">Incident brief</text>
+  <text x="132" y="333" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18">logs, repro steps,</text>
+  <text x="132" y="358" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18">expected behavior</text>
+  <path d="M324 308 H428" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M412 290 L438 308 L412 326" fill="none" stroke="#94a3b8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="454" y="218" width="248" height="116" rx="18" fill="#0f766e" stroke="#5eead4" stroke-width="3"/>
+  <text x="484" y="268" fill="#ecfeff" font-family="Arial, sans-serif" font-size="23" font-weight="700">Omni Engineer</text>
+  <text x="484" y="301" fill="#ccfbf1" font-family="Arial, sans-serif" font-size="18">triage, search,</text>
+  <text x="484" y="326" fill="#ccfbf1" font-family="Arial, sans-serif" font-size="18">risk questions</text>
+  <rect x="454" y="382" width="248" height="116" rx="18" fill="#7c2d12" stroke="#fdba74" stroke-width="3"/>
+  <text x="484" y="432" fill="#fff7ed" font-family="Arial, sans-serif" font-size="23" font-weight="700">Claude Engineer</text>
+  <text x="484" y="465" fill="#ffedd5" font-family="Arial, sans-serif" font-size="18">regression test,</text>
+  <text x="484" y="490" fill="#ffedd5" font-family="Arial, sans-serif" font-size="18">patch review</text>
+  <path d="M702 276 H818" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M702 440 H818" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M802 258 L828 276 L802 294" fill="none" stroke="#94a3b8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M802 422 L828 440 L802 458" fill="none" stroke="#94a3b8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="844" y="300" width="242" height="132" rx="18" fill="#312e81" stroke="#a5b4fc" stroke-width="3"/>
+  <text x="875" y="352" fill="#eef2ff" font-family="Arial, sans-serif" font-size="23" font-weight="700">One final patch</text>
+  <text x="875" y="386" fill="#e0e7ff" font-family="Arial, sans-serif" font-size="18">human-reviewed,</text>
+  <text x="875" y="411" fill="#e0e7ff" font-family="Arial, sans-serif" font-size="18">tested, documented</text>
+</svg>
